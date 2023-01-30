@@ -1,9 +1,9 @@
 import csv
 
-# open "customers" file to read name to customer_infile
+# open "customers" file to read; name to customer_infile
 # call csv.reader to read "customers" file
 
-# open "customer_country" csv file to write name to customer_outfile
+# open "customer_country" csv file to write; name to customer_outfile
 # call csv.writer for customer_outfile
 
 # create for loop to read customer_infile

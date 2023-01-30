@@ -1,8 +1,10 @@
 import csv
 
 # open "EmployeePay" file to read
-# call csv.reader to read "EmployeePay" file
-# skip line1
+# call csv.reader to read "EmployeePay" file; name to employee_infile
+
+# skip line 1 of employee_infile
+
 # create for loop for employees_infile
 # print first and last name
 # print salary
