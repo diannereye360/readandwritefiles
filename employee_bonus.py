@@ -15,7 +15,6 @@ employees = open("EmployeePay.csv", "r")
 
 employee_infile = csv.reader(employees, delimiter=",")
 
-next(employee_infile)
 
 for record in employee_infile:
     print("-------------------- Employee ", record[0], "------------------------")
