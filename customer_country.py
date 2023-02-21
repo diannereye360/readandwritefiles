@@ -19,6 +19,9 @@ name_country_write = csv.writer(customer_outfile)
 header = ["Name", "Country"]
 name_country_write.writerow(header)
 
+# header = "Name" + ", " + "Country"
+# customer_outfile.write(header)
+
 header_line = next(customer_infile)
 
 for record in customer_infile:
@@ -27,4 +30,5 @@ for record in customer_infile:
     name_country_write.writerow(name_country)
 
 customer_outfile.close()
+customer_infile.close()
 customers.close()
